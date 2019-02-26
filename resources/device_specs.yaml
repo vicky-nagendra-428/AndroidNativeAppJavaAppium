@@ -1,0 +1,22 @@
+Nexus_6:
+
+  DeviceName : Nexus_6
+  App : /Users/username/app.apk
+  App_Wait_Activity : com.*
+  App_Package : com.android.pkg
+  App_Activity : com.android.apps.ui.HomeActivity
+  PlatformVersion : 8.0
+  PlatformName : Android
+  deviceIdentifier : device product:sdk_gphone_x86_64 model:Android_SDK_built_for_x86_64 device:generic_x86_64
+
+Nexus_9_API_26:
+
+  DeviceName : Nexus_9_API_26
+  App : /Users/username/app.apk
+  App_Wait_Activity : com.*
+  App_Package : com.android.pkg
+  App_Activity : com.android.apps.ui.HomeActivity
+  PlatformVersion : 8.0
+  PlatformName : Android
+  deviceIdentifier : device product:sdk_gphone_x86 model:Android_SDK_built_for_x86 device:generic_x86
+
