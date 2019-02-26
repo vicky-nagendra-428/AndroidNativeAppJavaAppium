@@ -8,6 +8,10 @@ This is a template to get started with a Gauge project that uses Selenium as the
 
 ## Building on top of this template
 
+### Look into
+
+* /env/default/browser.properties to configure setup related properties
+
 ### Defining Specifications
 
 * This template includes a sample specification which opens up a browser and navigates to `Get Started` page of Gauge.
@@ -36,4 +40,9 @@ or
 
 ```
 mvn clean -U install gauge:execute
+```
+
+To run the specs parallel
+```
+mvn clean -U install gauge:execute -DinParallel=true -DspecsDir=specs -Dnodes=2
 ```
